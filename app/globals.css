@@ -17,13 +17,40 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  font-family: Arial, sans-serif;
+  color: #d4d4d4; /* Light gray for text */
+  background-color: #1a1a1a; /* Slightly lighter dark shade */
+  /* color: rgb(var(--foreground-rgb)); */
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1a1a1a; /* Slightly lighter dark shade */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #00b4d8; /* Neon blue highlight for hover */
 }
 
 @layer utilities {
