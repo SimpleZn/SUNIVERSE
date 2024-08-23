@@ -30,7 +30,9 @@ export default function RootLayout({
             <a href="https://x.com/universe_tron" target="_blank">
               Twitter
             </a>
-            <a href="https://t.me/universe_tron">Telegram</a>
+            <a href="https://t.me/universe_tron" target="_blank">
+              Telegram
+            </a>
           </nav>
           <div className="cursor-pointer">CONNECT WALLET</div>
         </header>
